@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
+/*Common CSS Start*/
 
 body{
     margin: 0;
@@ -22,12 +23,17 @@ li,ul{
 
 li{
     list-style: none;
+    display: inline-block;
 }
 
 a{
     text-decoration: none;
+    color: #000;
 }
 
+/*Common CSS End*/
+
+/* header part start */
 .main_header {
     padding: 15px 0px;
 }
@@ -53,7 +59,6 @@ a{
 
 .main_search form input{
     border: none;
-    color: #BDBDBD;
 }
 
 .main_search form input:focus{
@@ -70,3 +75,43 @@ a{
     padding: 10px;
     border-radius: 25px;
 }
+
+.cart_area {
+    padding-left: 100px;
+}
+
+.cart_area ul li {
+    margin-right: 20px;
+    margin-top: 16px;
+}
+
+.log_area {
+    position: absolute;
+    top: 7px;
+}
+
+.log_area a {
+    display: flex;
+}
+
+.log_area a svg {
+    background: #F2F2F2;
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 50px;
+    /* line-height: 30px; */
+    /* display: inline-block; */
+} 
+
+.log_area a p {
+    display: inline-block;
+}
+
+.log_area p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* header part end  */
+
