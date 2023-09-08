@@ -28,6 +28,45 @@ a{
     text-decoration: none;
 }
 
+.main_header {
+    padding: 15px 0px;
+}
+
 .container{
     max-width: 1320px;
+}
+
+.main_search form {
+    border: 1px solid #E0E0E0;
+    padding: 5px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+}
+
+.main_search form svg {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.main_search form input{
+    border: none;
+    color: #BDBDBD;
+}
+
+.main_search form input:focus{
+    outline: 0;
+}
+.main_search form::placeholder{
+    color: #000;
+}
+
+.main_search form button {
+    background: #4F4F4F;
+    border: none;
+    color:#FFFFFF;
+    padding: 10px;
+    border-radius: 25px;
 }
