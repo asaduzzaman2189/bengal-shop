@@ -31,6 +31,11 @@ a{
     color: #000;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 /*Common CSS End*/
 
 /* header part start */
@@ -115,3 +120,61 @@ a{
 
 /* header part end  */
 
+/* menu_area start  */
+
+.all_cat_inner {
+    background: #27AE60;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    padding: 12px 5px;
+    border-radius: 25px;
+}
+
+.all_cat_inner img {
+    height: auto;
+}
+
+.left_img {
+    padding-left: 20px;
+}
+
+.center_text {
+    text-align: center;
+    color: #fff;
+}
+/* main_menu start  */
+
+.main_menu ul {
+    margin-top: 10px;
+}
+
+.main_menu ul li {
+    margin-right: 40px;
+}
+
+.main_menu ul li:last-child {
+    margin-right: 0;
+}
+
+.dorpdown {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 180px;
+    background: #27ae60;
+    /* text-align: left; */
+}
+
+.submenu li {
+    display: block;
+    width: 100%;
+}
+
+/* main_menu end */
+
+
+/* menu_area end */
